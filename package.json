@@ -1,0 +1,34 @@
+{
+  "name": "django-lead-manager",
+  "version": "1.0.0",
+  "description": "Web Service using Django and ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./leadmanager/frontend/source/index.js --output ./leadmanager/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./leadmanager/frontend/source/index.js --output ./leadmanager/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanCh11/django-lead-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanCh11/django-lead-manager/issues"
+  },
+  "homepage": "https://github.com/DanCh11/django-lead-manager#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
